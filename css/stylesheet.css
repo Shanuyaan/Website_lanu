@@ -5,8 +5,7 @@ html{
     background-attachment: fixed;
     background-size: cover;
     background-position:bottom;
-    min-width: 540px;
-    scroll-behavior: smooth;
+    min-width: 50px;
 }
 
 ::selection{
@@ -15,7 +14,6 @@ html{
 
 #Welcome {
     font-size: 350%;
-    font-family: century gothic black;
     text-align: center;
     margin-left: 0%;
     margin-right: 0%;
@@ -41,7 +39,6 @@ html{
 }
 
 #active {
-    font-family: century gothic black;
     font-size: 140%;
     text-decoration: none;
     color: black;
@@ -98,12 +95,10 @@ div {
 
 h1 {
     
-    font-family: century gothic black;
     padding-top: 20px;
 }
 
 h2 {
-    font-family: century gothic black;
     padding-top: 5px;
     font-size: 23px;
 }
@@ -122,20 +117,20 @@ h2 {
 
 .photo{
     height: auto;
-    width: 50%;
+    width: 100%;
+    max-width: 700px;
     border-radius: 100px;
-    border-style:ridge;
+    border-style:ridge
 }
 
 .personalphoto{
     height: auto;
     width: 30%;
     border-radius: 100px;
-    border-style:ridge;
+    border-style:ridge
 }
 
 .menu{
-    font-family: century gothic black;
     font-size: 140%;
     text-decoration: none;
     color: white;
