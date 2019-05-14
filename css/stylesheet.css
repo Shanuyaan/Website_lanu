@@ -18,7 +18,7 @@ html{
     text-align: center;
     margin-left: 0%;
     margin-right: 0%;
-
+    text-shadow: 1px 1px 10px white;
 }
 
 #MenuContainer {
@@ -112,8 +112,10 @@ h2 {
 
 .lehrfirmenlogo{
     height: auto;
+    width: 60%;
+    max-width: 500px;
+    width: 30%;
     width: 80%;
-    
 }
 
 .photo{
@@ -126,9 +128,9 @@ h2 {
 
 .personalphoto{
     height: auto;
-    border-radius: 100px;
-    border-style:ridge;
     max-width: 80%;
+    border-radius: 100px;
+    border-style:ridge
 }
 
 .menu{
@@ -181,7 +183,6 @@ h2 {
     margin-left: 8%;
     margin-bottom: 5x;
     cursor: pointer;
-    
 }
 
 .back:hover{
