@@ -6,6 +6,7 @@ html{
     background-size: cover;
     background-position:bottom;
     min-width: 50px;
+    scroll-behavior: smooth;
 }
 
 ::selection{
